@@ -18,7 +18,7 @@ For ROUGE-1 we would be measuring the match-rate of unigrams between our model o
 ROUGE-2 and ROUGE-3 would use bigrams and trigrams respectively. <br />
 ROUGE-L measures the longest common subsequence (LCS) between our model output and reference. <br />
 
-Newlines in the text are interpreted as sentence boundaries, and the LCS is computed between each pair of reference and candidate sentences, and something called union-LCS is computed. This is called rougeLsum. <br />
+RougeLsum :Newlines in the text are interpreted as sentence boundaries, and the LCS is computed between each pair of reference and candidate sentences, This is called rougeLsum. <br />
 
 
 
