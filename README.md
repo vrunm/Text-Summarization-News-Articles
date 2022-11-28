@@ -10,6 +10,17 @@ There are two features:
 The BART model for text summarization was fit and trained for 10 epochs.
 The Rouge metric was used for evaluation:
 
+ROUGE-N measures the number of matching ‘n-grams’ between our model-generated text and a ‘reference’.
+An n-gram is simply a grouping of tokens/words. A unigram (1-gram) would consist of a single word. A bigram (2-gram) consists of two consecutive words:
+For ROUGE-1 we would be measuring the match-rate of unigrams between our model output and reference.
+ROUGE-2 and ROUGE-3 would use bigrams and trigrams respectively.
+ROUGE-L measures the longest common subsequence (LCS) between our model output and reference.
+Newlines in the text are interpreted as sentence boundaries, and the LCS is computed between each pair of reference and candidate sentences, and something called union-LCS is computed. This is called rougeLsum i
+
+
+
+
+
 <img src = "1.epochs_table.png">
 
 <img src = "2.bart_rouge2.png">
