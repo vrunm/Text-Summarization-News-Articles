@@ -14,7 +14,7 @@ The Rouge metric was used for evaluation:
 | |          |
 |     | |        |
 
-| Command | Description |
+| Epoch | Training Loss | Validation Loss | Rouge1 | Rouge2 | Rougel | Rougelsum | 
 | --- | --- |
 | `git status` | List all *new or modified* files |
 | `git diff` | Show file differences that **haven't been** staged |
