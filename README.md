@@ -9,7 +9,7 @@ There are two features:
 
 The BART model for text summarization was fit and trained for 10 epochs.
 The Rouge metric was used for evaluation:
-| Name     | Character |
-| ---      | ---       |
-| Backtick | `         |
-| Pipe     | \|        |
+| Epoch    | Training Loss | Validation Loss | Rouge1    |   Rouge2 |  Rougel | Rougelsum | Gen Len
+| 1        | 2.543800      | 2.369417        | 33.615200 | 12.164400 | 20.592400| 20.607000 | 61.9666000|
+| |          |
+|     | |        |
