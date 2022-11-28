@@ -9,3 +9,7 @@ There are two features:
 
 The BART model for text summarization was fit and trained for 10 epochs.
 The Rouge metric was used for evaluation:
+| Name     | Character |
+| ---      | ---       |
+| Backtick | `         |
+| Pipe     | \|        |
