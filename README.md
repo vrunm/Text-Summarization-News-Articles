@@ -25,10 +25,10 @@ RougeLsum :Newlines in the text are interpreted as sentence boundaries, and the 
 
 
 
-<img src = "1.epochs_table.png">
-<img src = "2.bart_eval_rouge1.png">
-<img src = "3.bart_rouge2.png">
-<img src = "4.bart_eval_rougeL.png">
-<img src = "5.bart_rougeLsum.png">
-<img src = "6.bart_gen_len.png"
+<img src = "plots/1.epochs_table.png">
+<img src = "plots/2.bart_eval_rouge1.png">
+<img src = "plots/3.bart_rouge2.png">
+<img src = "plots/4.bart_eval_rougeL.png">
+<img src = "plots/5.bart_rougeLsum.png">
+<img src = "plots/6.bart_gen_len.png"
 
