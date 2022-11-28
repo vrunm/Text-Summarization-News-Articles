@@ -9,6 +9,7 @@ There are two features:
 
 The BART model for text summarization was fit and trained for 10 epochs.
 The Rouge metric was used for evaluation:
+
 <img src = "1.epochs_table.png">
 
 <img src = "2.bart_rouge2.png">
