@@ -13,3 +13,8 @@ The Rouge metric was used for evaluation:
 | 1        | 2.543800      | 2.369417        | 33.615200 | 12.164400 | 20.592400| 20.607000 | 61.9666000|
 | |          |
 |     | |        |
+
+| Command | Description |
+| --- | --- |
+| `git status` | List all *new or modified* files |
+| `git diff` | Show file differences that **haven't been** staged |
