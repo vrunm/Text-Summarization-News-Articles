@@ -34,15 +34,15 @@ SGD   | 0.01 |
     
 **Comparing the Training loss of all optimizers**
 <br>
-<img src = "train_loss_all_optim.png">
+<img src = "1.train_loss_all.png">
 
 **Comparing the Test loss of all optimizers**
 <br>
-<img src = "train_loss_all_optim.png">
+<img src = "1.test_loss_all.png">
 
 **Comparing the Validation loss of all optimizers**
 <br>
-<img src = "val_loss_all_optim.png">
+<img src = "1.val_loss_all.png">
 
 The rate of convergence of the Adam optimizer is the fastest.
 
