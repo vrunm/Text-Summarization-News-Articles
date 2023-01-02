@@ -22,13 +22,13 @@ ROUGE-L measures the longest common subsequence (LCS) between our model output a
 RougeLsum :Newlines in the text are interpreted as sentence boundaries, and the LCS is computed between each pair of reference and candidate sentences, This is called rougeLsum. <br />
 
 
-Optimizer | Learning Rate $\gamma$ | | Momentum $\eta$ | Alpha $\alpha$ | Beta1 $\beta_1$ | Beta2 $\beta_2$
-| --- | --- | --- | --- | --- | --- | --- |
-AdamW | 5e-5 |    |     |     | 10e-3 |10e-4|
-RMSprop | 0.01 | 0.01 | 0.99|     | 10e-3  | 10e-5|
-NAG | 5e-5 |
-SGD(Momentum)| 5e-5 | 0.001|
-SGD   | 0.01 | 
+Optimizer | Learning Rate $\gamma$ |   Momentum $\eta$ | Alpha $\alpha$ | Beta1 $\beta_1$ | Beta2 $\beta_2$ | Epsilon $\epsilon$ |
+| ---     | ---                    | ---               | ---            | ---             | ---             | ---                |
+AdamW     | 5e-5                   | 0.01              | 0.9            | 0.9             | 0.999           | 1e-5               |
+RMSprop   | 0.01                   | 0.01              | 0.99           | -               | -               |  -                 |
+NAG       | 5e-5 |                 | -                 | -              | -               |-                | -                  |   
+SGD(Momentum)| 5e-5                | 0.001             | -              |  -              |-                | -                  |
+SGD          | 0.01 |              |  -                | -              | -               |-               | -                   |
 
 
     
