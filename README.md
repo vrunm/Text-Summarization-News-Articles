@@ -21,6 +21,13 @@ ROUGE-L measures the longest common subsequence (LCS) between our model output a
 
 RougeLsum :Newlines in the text are interpreted as sentence boundaries, and the LCS is computed between each pair of reference and candidate sentences, This is called rougeLsum. <br />
 
+| Model | Epochs | ROUGUE | F1 Score(Weighted) |
+| ----- | ------ | -------- | ------------------ |
+|BERT | 6 | 70% | 42|
+|DistilBERT | 6 | 32 |0.86|
+|Roberta  | 6 | 20 |0.74|
+
+
 
 Optimizer | Learning Rate $\gamma$ |   Momentum $\eta$ | Alpha $\alpha$ | Beta1 $\beta_1$ | Beta2 $\beta_2$ | Epsilon $\epsilon$ |
 | ---     | ---                    | ---               | ---            | ---             | ---             | ---                |
