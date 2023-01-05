@@ -23,9 +23,8 @@ RougeLsum :Newlines in the text are interpreted as sentence boundaries, and the 
 
 | Model | Epochs | ROUGUE | F1 Score(Weighted) |
 | ----- | ------ | -------- | ------------------ |
-|BERT | 6 | 70% | 42|
-|DistilBERT | 6 | 32 |0.86|
-|Roberta  | 6 | 20 |0.74|
+|BART | 6 | 70% | 42|
+|DistilBART | 6 | 32 |0.86|
 
 
 
