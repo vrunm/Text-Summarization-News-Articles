@@ -9,6 +9,8 @@ There are two features:
 
 The BART model for text summarization was fit and trained for 10 epochs.
 The model predicts a new summary given an article.
+
+# Evaluation Metric
 The Rouge metric was used for evaluation:
 
 ROUGE-N measures the number of matching ‘n-grams’ between our model-generated text and a ‘reference’. <br />
@@ -26,7 +28,7 @@ RougeLsum :Newlines in the text are interpreted as sentence boundaries, and the 
 |BART | 6 | 38 |0.84 |
 |DistilBART | 6 | 42 |0.86|
 
-
+The following research paper has been used for fine tuning the optimizers: [On Empirical Comparisons of Optimizers for Deep Learning](https://arxiv.org/pdf/1910.05446.pdf)
 
 Optimizer | Learning Rate $\gamma$ |   Momentum $\eta$ | Alpha $\alpha$ | Beta1 $\beta_1$ | Beta2 $\beta_2$ | Epsilon $\epsilon$ |
 | ---     | ---                    | ---               | ---            | ---             | ---             | ---                |
