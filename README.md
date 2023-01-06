@@ -10,8 +10,8 @@ There are two features:
 The BART model for text summarization was fit and trained for 10 epochs.
 The model predicts a new summary given an article.
 
-# Evaluation Metric
-The Rouge metric was used for evaluation:
+
+The **Rouge** metric was used for evaluation:
 
 ROUGE-N measures the number of matching ‘n-grams’ between our model-generated text and a ‘reference’. <br />
 
