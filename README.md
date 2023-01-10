@@ -19,6 +19,8 @@ The BART model for text summarization was trained with **Adam optimizer** having
 #### **DistilBART:**
 The DistilBART model for text summarization was trained with **Adam optimizer** having learning rate 2e-5 for **6 epochs** yielded a ROUGUE-L score of 42 and F1(weighted) of 0.86.
 
+## Evaluation Metrics:
+
 The **Rouge** metric was used for evaluation:
 
 ROUGE-N measures the number of matching ‘n-grams’ between our model-generated text and a ‘reference’. <br />
