@@ -14,10 +14,10 @@ Summarization](https://arxiv.org/pdf/2205.03978.pdf)).
 ## Experiments:
 #### **BART:**
 
-The BART model for text summarization was trained with **Adam optimizer** having learning rate 2e-5 for **6 epochs** yielded a ROUGUE-L score of 38 and F1(weighted) of 0.84.
+The BART model for text summarization was trained with **Adam optimizer** having learning rate **2e-5** for **6 epochs** yielded a ROUGUE-L score of 38 and F1(weighted) of 0.84.
 
 #### **DistilBART:**
-The DistilBART model for text summarization was trained with **Adam optimizer** having learning rate 2e-5 for **6 epochs** yielded a ROUGUE-L score of 42 and F1(weighted) of 0.86.
+The DistilBART model for text summarization was trained with **Adam optimizer** having learning rate **2e-5** for **6 epochs** yielded a ROUGUE-L score of 42 and F1(weighted) of 0.86.
 
 ## Evaluation Metrics:
 
