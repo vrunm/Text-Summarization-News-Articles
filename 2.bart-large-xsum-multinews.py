@@ -23,7 +23,7 @@ model_checkpoints = 'facebook/bart-large-xsum'
 
 # ## Data tokenization
 # 
-# **max_input** and **max_target** can variy depending on the available computing power
+# **max_input** and **max_target** can vary depending on the available computing power
 
 max_input = 512
 max_target = 128
@@ -57,8 +57,6 @@ test_sample = tokenize_data['test'].shuffle(seed=123).select(range(200))
 tokenize_data['train'] = train_sample
 tokenize_data['validation'] = validation_sample
 tokenize_data['test'] = test_sample
-
-tokenize_data
 
 
 #load model
