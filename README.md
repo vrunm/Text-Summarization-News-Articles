@@ -54,10 +54,6 @@ SGD          | 0.01 |              |  -                | -              | -     
 <br>
 <img src = "1.train_loss_all.png">
 
-**Comparing the Test loss of all optimizers**
-<br>
-<img src = "1.test_loss_all.png">
-
 **Comparing the Validation loss of all optimizers**
 <br>
 <img src = "1.val_loss_all.png">
