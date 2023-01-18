@@ -5,8 +5,8 @@ Multi-News, consists of news articles and human-written summaries of these artic
 
 There are two features:
 
-    document: text of news articles seperated by special token "|||||".
-    summary: news summary.
+    document: Text of News Articles
+    summary: News Summary.
 
 > Fine Tuning of the model has been done with reference to this paper: [ACM - Attribute Conditioning for Abstractive Multi Document
 Summarization](https://arxiv.org/pdf/2205.03978.pdf)).
