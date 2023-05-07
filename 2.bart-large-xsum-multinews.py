@@ -1,6 +1,3 @@
-!pip install transformers
-!pip install datasets
-
 import transformers
 from datasets import load_dataset, load_metric, load_from_disk
 import numpy as np
@@ -31,6 +28,21 @@ tokenizer = transformers.AutoTokenizer.from_pretrained(model_checkpoints)
 
 
 def preprocess_data(data_to_process):
+  """
+    Tokenizes the input and target text data using a pre-trained tokenizer, and formats it as input to a language model.
+    
+    Args:
+        data_to_process (dict): A dictionary containing the text data to be preprocessed, with the following keys:
+            - 'document' (list of str): A list of input documents to be summarized.
+            - 'summary' (list of str): A list of target summaries for each input document.
+    
+    Returns:
+        dict: A dictionary with the following keys and values:
+            - 'input_ids' (list of list of int): A list of input token IDs for each document, padded to `max_length`.
+            - 'attention_mask' (list of list of int): A list of binary attention masks indicating which tokens to attend to for each document.
+            - 'labels' (list of list of int): A list of target token IDs for each document, padded to `max_target`.
+    """
+
   #get the dialogue text
   inputs = [dialogue for dialogue in data_to_process['document']]
   #tokenize text
@@ -72,6 +84,16 @@ collator = transformers.DataCollatorForSeq2Seq(tokenizer, model=model)
 # Compute Rouge for evaluation 
 
 def compute_rouge(pred):
+  """
+    Computes the ROUGE metric scores and the average length of the generated predictions.
+    
+    Args:
+    pred : A tuple containing two lists of integer tokens. 
+        The first list contains the predicted tokens, and the second list contains the actual tokens (labels).
+        
+    Returns:
+    A dictionary containing the ROUGE scores for precision, recall, and F1, as well as the average length of the predictions.
+    """
   predictions, labels = pred
   #decode the predictions
   decode_predictions = tokenizer.batch_decode(predictions, skip_special_tokens=True)
