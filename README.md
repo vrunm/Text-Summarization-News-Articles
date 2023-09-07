@@ -8,8 +8,6 @@ There are two features:
     document: Text of News Articles
     summary: News Summary.
 
-> Fine Tuning of the model has been done with reference to this paper: [ACM - Attribute Conditioning for Abstractive Multi Document
-Summarization](https://arxiv.org/pdf/2205.03978.pdf)).
 
 ## Experiments:
 #### **BART:**
@@ -36,7 +34,6 @@ For **ROUGE-1** we would be measuring the match-rate of unigrams between our mod
 |BART | 6 | 38 |0.84 |
 |DistilBART | 6 | 42 |0.86|
 
-The following research paper has been used for fine tuning the optimizers: [On Empirical Comparisons of Optimizers for Deep Learning](https://arxiv.org/pdf/1910.05446.pdf)
 
 Optimizer | Learning Rate $\gamma$ |   Momentum $\eta$ | Alpha $\alpha$ | Beta1 $\beta_1$ | Beta2 $\beta_2$ | Epsilon $\epsilon$ |
 | ---     | ---                    | ---               | ---            | ---             | ---             | ---                |
@@ -46,8 +43,7 @@ NAG       | 5e-5 |                 | -                 | -              | -     
 SGD(Momentum)| 5e-5                | 0.001             | -              |  -              |-                | -                  |
 SGD          | 0.01 |              |  -                | -              | -               |-                | -                   |
 
-
-    
+The Finetuning of the optimizers was based on: [On Empirical Comparisons of Optimizers for Deep Learning](https://arxiv.org/pdf/1910.05446.pdf)    
 **Comparing the Training loss of all optimizers**
 <br>
 <img src = "1.train_loss_all.png">
