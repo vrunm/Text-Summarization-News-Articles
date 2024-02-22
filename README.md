@@ -46,11 +46,11 @@ SGD          | 0.01 |              |  -                | -              | -     
 The Finetuning of the optimizers was based on: [On Empirical Comparisons of Optimizers for Deep Learning](https://arxiv.org/pdf/1910.05446.pdf)    
 **Comparing the Training loss of all optimizers**
 <br>
-<img src = "1.train_loss_all.png">
+<img src = "https://github.com/vrunm/Text-Summarization-News-Articles/blob/main/plots/1.train_loss_all.png">
 
 **Comparing the Validation loss of all optimizers**
 <br>
-<img src = "1.val_loss_all.png">
+<img src = "https://github.com/vrunm/Text-Summarization-News-Articles/blob/main/plots/1.val_loss_all.png">
 
 The rate of convergence of the Adam optimizer is the fastest.
 
